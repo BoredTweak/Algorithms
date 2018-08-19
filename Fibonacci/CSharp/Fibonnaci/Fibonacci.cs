@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Numerics;
 
 namespace Fibonnaci
 {
     public class Fibonacci
     {
-        public static int CalculateFib(int n)
+        public static BigInteger CalculateFib(int n)
         {
             if (n < 2)
             {
